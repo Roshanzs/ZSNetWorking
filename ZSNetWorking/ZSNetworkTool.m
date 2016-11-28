@@ -138,7 +138,8 @@
     self.outputStream = nil;
     //关闭会话
     [self.session invalidateAndCancel];
-    NSLog(@"下载完毕 %@",NSHomeDirectory());
+    //回调下载完成后的block
+    self.downloadFinish();
 }
 
 

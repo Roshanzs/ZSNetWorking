@@ -10,8 +10,14 @@
 
 // 定义一个block用来传递进度值
 typedef  void (^SetProgressValue)(float progressValue);
-
+// 下载完成后回调的block
+typedef  void (^downFinish)();
 @interface ZSNetworkTool : NSObject
+//下载完后回调的block
+@property(nonatomic,copy)downFinish downloadFinish;
+
+
+
 /** 创建下载工具对象 */
 + (instancetype)DownloadWithURLString:(NSString*)urlString setProgressValue:(SetProgressValue)setProgressValue;
 /** 开始下载 */
