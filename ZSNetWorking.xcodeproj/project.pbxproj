@@ -15,6 +15,7 @@
 		8BC25FB91DEBDFED00440DC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC25FB71DEBDFED00440DC5 /* LaunchScreen.storyboard */; };
 		8BC25FC21DEBE02F00440DC5 /* ZSNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC25FC11DEBE02F00440DC5 /* ZSNetworkTool.m */; };
 		8BC25FC61DEC063100440DC5 /* ExpendFileAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC25FC51DEC063100440DC5 /* ExpendFileAttributes.m */; };
+		8BC25FC91DEC41B500440DC5 /* ZSNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC25FC81DEC41B500440DC5 /* ZSNetworking.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		8BC25FC11DEBE02F00440DC5 /* ZSNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSNetworkTool.m; sourceTree = "<group>"; };
 		8BC25FC41DEC063100440DC5 /* ExpendFileAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpendFileAttributes.h; sourceTree = "<group>"; };
 		8BC25FC51DEC063100440DC5 /* ExpendFileAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpendFileAttributes.m; sourceTree = "<group>"; };
+		8BC25FC71DEC41B500440DC5 /* ZSNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSNetworking.h; sourceTree = "<group>"; };
+		8BC25FC81DEC41B500440DC5 /* ZSNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSNetworking.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				8BC25FAD1DEBDFED00440DC5 /* AppDelegate.m */,
 				8BC25FAF1DEBDFED00440DC5 /* ViewController.h */,
 				8BC25FB01DEBDFED00440DC5 /* ViewController.m */,
+				8BC25FC71DEC41B500440DC5 /* ZSNetworking.h */,
+				8BC25FC81DEC41B500440DC5 /* ZSNetworking.m */,
 				8BC25FC01DEBE02F00440DC5 /* ZSNetworkTool.h */,
 				8BC25FC11DEBE02F00440DC5 /* ZSNetworkTool.m */,
 				8BC25FB21DEBDFED00440DC5 /* Main.storyboard */,
@@ -169,6 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BC25FC91DEC41B500440DC5 /* ZSNetworking.m in Sources */,
 				8BC25FB11DEBDFED00440DC5 /* ViewController.m in Sources */,
 				8BC25FAE1DEBDFED00440DC5 /* AppDelegate.m in Sources */,
 				8BC25FC61DEC063100440DC5 /* ExpendFileAttributes.m in Sources */,
@@ -330,6 +336,7 @@
 				8BC25FBF1DEBDFED00440DC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
