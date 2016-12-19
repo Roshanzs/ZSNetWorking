@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-typedef  void (^SetProgress)(float progress);
+typedef  void (^SetProgress)(NSProgress *progress);
 // 下载完成后回调的block
 typedef  void (^downFinish)();
 

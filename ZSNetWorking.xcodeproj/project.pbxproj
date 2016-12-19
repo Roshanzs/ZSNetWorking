@@ -16,6 +16,9 @@
 		8BC25FC21DEBE02F00440DC5 /* ZSNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC25FC11DEBE02F00440DC5 /* ZSNetworkTool.m */; };
 		8BC25FC61DEC063100440DC5 /* ExpendFileAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC25FC51DEC063100440DC5 /* ExpendFileAttributes.m */; };
 		8BC25FC91DEC41B500440DC5 /* ZSNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC25FC81DEC41B500440DC5 /* ZSNetworking.m */; };
+		8BE4360B1DFA956800706E00 /* zsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE4360A1DFA956800706E00 /* zsTableViewCell.m */; };
+		8BE436101DFA9EBE00706E00 /* ZSDownloadManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE4360F1DFA9EBE00706E00 /* ZSDownloadManger.m */; };
+		8BE436191DFAB5AA00706E00 /* ZSDownFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE436181DFAB5AA00706E00 /* ZSDownFile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,12 @@
 		8BC25FC51DEC063100440DC5 /* ExpendFileAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpendFileAttributes.m; sourceTree = "<group>"; };
 		8BC25FC71DEC41B500440DC5 /* ZSNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSNetworking.h; sourceTree = "<group>"; };
 		8BC25FC81DEC41B500440DC5 /* ZSNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSNetworking.m; sourceTree = "<group>"; };
+		8BE436091DFA956800706E00 /* zsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zsTableViewCell.h; sourceTree = "<group>"; };
+		8BE4360A1DFA956800706E00 /* zsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zsTableViewCell.m; sourceTree = "<group>"; };
+		8BE4360E1DFA9EBE00706E00 /* ZSDownloadManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSDownloadManger.h; sourceTree = "<group>"; };
+		8BE4360F1DFA9EBE00706E00 /* ZSDownloadManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSDownloadManger.m; sourceTree = "<group>"; };
+		8BE436171DFAB54E00706E00 /* ZSDownFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSDownFile.h; sourceTree = "<group>"; };
+		8BE436181DFAB5AA00706E00 /* ZSDownFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSDownFile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +80,12 @@
 				8BC25FAD1DEBDFED00440DC5 /* AppDelegate.m */,
 				8BC25FAF1DEBDFED00440DC5 /* ViewController.h */,
 				8BC25FB01DEBDFED00440DC5 /* ViewController.m */,
+				8BE436091DFA956800706E00 /* zsTableViewCell.h */,
+				8BE4360A1DFA956800706E00 /* zsTableViewCell.m */,
+				8BE4360E1DFA9EBE00706E00 /* ZSDownloadManger.h */,
+				8BE4360F1DFA9EBE00706E00 /* ZSDownloadManger.m */,
+				8BE436171DFAB54E00706E00 /* ZSDownFile.h */,
+				8BE436181DFAB5AA00706E00 /* ZSDownFile.m */,
 				8BC25FC71DEC41B500440DC5 /* ZSNetworking.h */,
 				8BC25FC81DEC41B500440DC5 /* ZSNetworking.m */,
 				8BC25FC01DEBE02F00440DC5 /* ZSNetworkTool.h */,
@@ -178,7 +193,10 @@
 				8BC25FB11DEBDFED00440DC5 /* ViewController.m in Sources */,
 				8BC25FAE1DEBDFED00440DC5 /* AppDelegate.m in Sources */,
 				8BC25FC61DEC063100440DC5 /* ExpendFileAttributes.m in Sources */,
+				8BE436101DFA9EBE00706E00 /* ZSDownloadManger.m in Sources */,
+				8BE4360B1DFA956800706E00 /* zsTableViewCell.m in Sources */,
 				8BC25FAB1DEBDFED00440DC5 /* main.m in Sources */,
+				8BE436191DFAB5AA00706E00 /* ZSDownFile.m in Sources */,
 				8BC25FC21DEBE02F00440DC5 /* ZSNetworkTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

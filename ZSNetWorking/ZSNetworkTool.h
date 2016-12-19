@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 // 定义一个block用来传递进度值
-typedef  void (^SetProgressValue)(float progressValue);
+typedef  void (^SetProgressValue)(NSProgress *progressValue);
 // 下载完成后回调的block
 typedef  void (^downFinish)();
 @interface ZSNetworkTool : NSObject

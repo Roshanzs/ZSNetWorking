@@ -30,7 +30,7 @@
 }
 
 -(void)DownloadWithURLString:(NSString *)urlString setProgressValue:(SetProgress)setProgressValue downloadfinish:(downFinish)finish{
-        ZSNetworkTool *tool = [ZSNetworkTool DownloadWithURLString:urlString setProgressValue:^(float progressValue) {
+        ZSNetworkTool *tool = [ZSNetworkTool DownloadWithURLString:urlString setProgressValue:^(NSProgress *progressValue) {
             setProgressValue(progressValue);
         }];
     tool.downloadFinish = finish;

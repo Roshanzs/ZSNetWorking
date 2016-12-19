@@ -60,7 +60,10 @@
         NSInteger fileTotleLength = [[ExpendFileAttributes stringValueWithPath:self.fileFullPath key:Key_FileTotalSize] integerValue];
         _fileTotalSize = fileTotleLength;
         _fileCurrentSize = flieCurrentlength;
-        self.progressValu(1.0 * flieCurrentlength / fileTotleLength);
+        NSProgress *temp = [[NSProgress alloc]initWithParent:nil userInfo:nil];
+        temp.completedUnitCount = flieCurrentlength;
+        temp.totalUnitCount = fileTotleLength;
+        self.progressValu(temp);
     }
     NSLog(@"地址%@",_fileFullPath);
 }
@@ -126,7 +129,10 @@
     //在主线程返回进度
     NSOperationQueue *mainqueue = [NSOperationQueue mainQueue];
     [mainqueue addOperationWithBlock:^{
-        self.progressValu(1.0 * self.fileCurrentSize / self.fileTotalSize);
+        NSProgress *temp = [[NSProgress alloc]initWithParent:nil userInfo:nil];
+        temp.completedUnitCount = self.fileCurrentSize;
+        temp.totalUnitCount = self.fileTotalSize;
+        self.progressValu(temp);
     }];
 }
 
